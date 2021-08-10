@@ -1,18 +1,12 @@
 ## Laravel Box
 
-Laravel 后台开发整合包，集成 DcatAdmin、JWT、iseed、easy-wechat 以及Laravel Debugbar，省去配置过程，开箱即用。
+Laravel 后台开发整合包，集成 dcat-admin、JWT、iseed、easy-wechat 以及 laravel-debugbar，省去配置过程，开箱即用。
 
 版本可直接参考 `composer.json` 中的配置。
 
 ### 使用
 
-`git clone https://gitee.com/celaraze/laravel-box.git`
-
-`cd laravel-box`
-
-`composer install -vvv`
-
-`copy .env.example .env`
+`composer create-project celaraze/laravel-box 项目名`
 
 `php artisan admin:install`
 
