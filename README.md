@@ -6,9 +6,11 @@ Laravel 后台开发整合包，集成 dcat-admin、JWT、iseed、easy-wechat �
 
 ### 使用
 
-`composer create-project celaraze/laravel-box 项目名`
+`git clone` 本仓库。
 
 `php artisan admin:install`
+
+`php artisan db:seed`
 
 ### 集成配置
 
